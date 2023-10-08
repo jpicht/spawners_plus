@@ -29,6 +29,7 @@ public class ModLootTableModifiers {
     public static final Identifier BLAZE_ID = EntityType.BLAZE.getLootTableId();
     public static final Identifier MAGMA_CUBE_ID = EntityType.MAGMA_CUBE.getLootTableId();
     public static final Identifier HUSK_ID = EntityType.HUSK.getLootTableId();
+    public static final Identifier WITCH_ID = EntityType.WITCH.getLootTableId();
     public static void modifyLootTables(){
         LootTableEvents.MODIFY.register(((resourceManager, lootManager, id, tableBuilder, source) -> {
 
@@ -39,6 +40,7 @@ public class ModLootTableModifiers {
             if(source.isBuiltin() && BLAZE_ID.equals(id)) addMobSoulDrop(ModItems.BLAZE_SOUL, 0.03f, tableBuilder);
             if(source.isBuiltin() && MAGMA_CUBE_ID.equals(id)) addMobSoulDrop(ModItems.MAGMA_CUBE_SOUL, 0.01f, tableBuilder);
             if(source.isBuiltin() && HUSK_ID.equals(id)) addMobSoulDrop(ModItems.HUSK_SOUL, 0.02f, tableBuilder);
+            if(source.isBuiltin() && WITCH_ID.equals(id)) addMobSoulDrop(ModItems.WITCH_SOUL, 0.02f, tableBuilder);
         }));
     }
 

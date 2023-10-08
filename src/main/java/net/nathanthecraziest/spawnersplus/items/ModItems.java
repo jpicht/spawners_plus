@@ -27,6 +27,7 @@ public class ModItems {
     public static final Item WITHER_SKELETON_SOUL = registerItem("wither_skeleton_soul", new ModSoulItem(new FabricItemSettings(), EntityType.WITHER_SKELETON));
     public static final Item HUSK_SOUL = registerItem("husk_soul", new ModSoulItem(new FabricItemSettings(), EntityType.HUSK));
     public static final Item DROWNED_SOUL = registerItem("drowned_soul", new ModSoulItem(new FabricItemSettings(), EntityType.DROWNED));
+    public static final Item WITCH_SOUL = registerItem("witch_soul", new ModSoulItem(new FabricItemSettings(), EntityType.WITCH));
 
     public static final Item SPAWNER_SILENCER = registerItem("spawner_silencer", new Item(new FabricItemSettings().rarity(Rarity.UNCOMMON)));
     private static Item registerItem(String name, Item item){

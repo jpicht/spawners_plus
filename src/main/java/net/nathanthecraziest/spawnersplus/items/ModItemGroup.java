@@ -20,6 +20,7 @@ public class ModItemGroup {
             content.addAfter(ModItems.STRAY_SOUL, ModItems.WITHER_SKELETON_SOUL);
             content.addAfter(ModItems.WITHER_SKELETON_SOUL, ModItems.HUSK_SOUL);
             content.addAfter(ModItems.HUSK_SOUL, ModItems.DROWNED_SOUL);
+            content.addAfter(ModItems.DROWNED_SOUL, ModItems.WITCH_SOUL);
         });
     }
 }
