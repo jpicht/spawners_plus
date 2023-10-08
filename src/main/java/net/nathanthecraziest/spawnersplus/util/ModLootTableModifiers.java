@@ -2,15 +2,10 @@ package net.nathanthecraziest.spawnersplus.util;
 
 import net.fabricmc.fabric.api.loot.v2.FabricLootTableBuilder;
 import net.fabricmc.fabric.api.loot.v2.LootTableEvents;
-import net.minecraft.block.Blocks;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.Item;
-import net.minecraft.item.Items;
 import net.minecraft.loot.LootPool;
-import net.minecraft.loot.LootTable;
 import net.minecraft.loot.condition.EntityPropertiesLootCondition;
-import net.minecraft.loot.condition.LootCondition;
-import net.minecraft.loot.condition.MatchToolLootCondition;
 import net.minecraft.loot.condition.RandomChanceLootCondition;
 import net.minecraft.loot.context.LootContext;
 import net.minecraft.loot.entry.ItemEntry;
@@ -22,9 +17,7 @@ import net.minecraft.predicate.entity.EntityEquipmentPredicate;
 import net.minecraft.predicate.entity.EntityPredicate;
 import net.minecraft.predicate.item.EnchantmentPredicate;
 import net.minecraft.predicate.item.ItemPredicate;
-import net.minecraft.registry.tag.ItemTags;
 import net.minecraft.util.Identifier;
-import net.nathanthecraziest.spawnersplus.SpawnersPlus;
 import net.nathanthecraziest.spawnersplus.items.ModEnchantments;
 import net.nathanthecraziest.spawnersplus.items.ModItems;
 
